@@ -1,11 +1,39 @@
-.test-link {
-    color:black;
+body{
+    background-color: #fff;
+    color: #757575;
+}
+/*.logo:hover {
+    color:#2196F3;
+} */
+.list{
+    list-style:none; /* */
 }
 
-.test-link:hover, .test-link:focus {
-    color:orange;
+.site-nav .link {
+    color:#2196F3
+}
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+    color:#212121
+ }
+/*Hero*/
+.hero-title{
+    color: #212121;
 }
 
-.test-link:active {
-    color: teal;
-}
+ .section-title{
+     color: #212121;
+ }
+
+
+
+
+
+
+
+/* цвет основного текста #757575 */
+/* цвет вторичного текста #212121 */
+/* цвет акцент #2196F3 */
+/* цвет полос background: #2F303A; */
+/* цвет фона #E5E5E5; */
+/* цвет фона вторичный #F5F4FA */
