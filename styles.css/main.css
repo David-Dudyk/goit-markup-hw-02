@@ -17,11 +17,11 @@ body{
     color:#212121
  }
 /*Hero*/
-.hero-title{
+.hero-title {
     color: #212121;
 }
 
- .section-title{
+ .section-title {
      color: #212121;
  }
  
@@ -30,6 +30,9 @@ body{
 
  } */
 
+ .feature-list .title{
+     color: #212121;
+ }
 
 
 
