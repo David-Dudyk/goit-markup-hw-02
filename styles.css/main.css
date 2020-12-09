@@ -51,6 +51,9 @@ body{
  .feature-list .title{
      color: var(--primary-text-color);
  }
+ .figcaption-title {
+     color: var(--primary-text-color);
+ }
 
 
 
