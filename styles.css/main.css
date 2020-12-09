@@ -51,12 +51,27 @@ body{
  .feature-list .title{
      color: var(--primary-text-color);
  }
- .figcaption-title {
-     color: var(--primary-text-color);
+ 
+ .logo-web { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--accent-color);
  }
 
-
-
-
-
-
+ .logo-studio {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--primary-text-color);
+ }
