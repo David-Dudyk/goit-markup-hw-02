@@ -19,7 +19,10 @@ body{
 }
 
 .list{
-    list-style:none; /* */
+    list-style:none; 
+}
+.logo:hover{
+    color: var(--accent-color);
 }
 
 .site-nav .link {
