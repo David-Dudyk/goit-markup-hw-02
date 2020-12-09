@@ -1,47 +1,51 @@
-body{
-    background-color: #fff;
-    color: #757575;
-}
-/*.logo:hover {
-    color:#2196F3;
-} */
-.list{
-    list-style:none; /* */
-}
-
-.site-nav .link {
-    color:#2196F3
-}
- .site-nav .link:hover,
- .site-nav .link:focus {
-    color:#212121
- }
-/*Hero*/
-.hero-title {
-    color: #212121;
-}
-
- .section-title {
-     color: #212121;
- }
- 
- /*.feature-list .title {
-     color:#212121 ;
-
- } */
-
- .feature-list .title{
-     color: #212121;
- }
-
-
-
-
-
-
 /* цвет основного текста #757575 */
 /* цвет вторичного текста #212121 */
 /* цвет акцент #2196F3 */
 /* цвет полос background: #2F303A; */
 /* цвет фона #E5E5E5; */
 /* цвет фона вторичный #F5F4FA */
+
+:root{
+    --primary-background-color:#E5E5E5;
+    --primary-text-color:#212121;
+    --title-text-color:#757575;
+    --accent-color:#2196F3; 
+}
+
+
+body{
+    background-color: #E5E5E5;
+    color: var(--title-text-color);
+}
+
+.list{
+    list-style:none; /* */
+}
+
+.site-nav .link {
+    color: var(--accent-color);
+}
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+    color: var(--primary-text-color);
+ }
+/* Hero */
+.hero-title {
+    color: var(--primary-text-color);
+}
+
+ .section-title {
+     color: var(--primary-text-color);
+ }
+ 
+ /* Feature */
+
+ .feature-list .title{
+     color: var(--primary-text-color);
+ }
+
+
+
+
+
+
