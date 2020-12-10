@@ -10,6 +10,8 @@
     --primary-text-color:#212121;
     --title-text-color:#757575;
     --accent-color:#2196F3; 
+    --footer-logo-color: wite;
+
 }
 
 
@@ -27,6 +29,24 @@ body{
 .logo:hover{
     color: var(--accent-color);
 }
+
+.logo-web { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+ }
+
+ .logo-studio {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+ }
 
 /* Site nav */
 
@@ -52,26 +72,27 @@ body{
      color: var(--primary-text-color);
  }
  
+ /* footer logo*/
  .logo-web { 
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
-    
     letter-spacing: 0.03em;
-    
     color: var(--accent-color);
  }
 
- .logo-studio {
+ .logo-footer {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
-    
     letter-spacing: 0.03em;
-    
-    color: var(--primary-text-color);
+    color: var(--footer-logo-color);
+ }
+
+ /* Button */
+ .button {
+     color: var(--title-text-color);
+     background-color: #fff;
  }
