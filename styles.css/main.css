@@ -57,6 +57,9 @@ body{
  .site-nav .link:focus {
     color: var(--primary-text-color);
  }
+ .site-nav .link-current{
+     color: var(--accent-color);
+ }
 /* Hero */
 .hero-title {
     color: var(--primary-text-color);
