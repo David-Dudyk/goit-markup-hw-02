@@ -5,10 +5,20 @@
 /* цвет фона #E5E5E5 */
 /* цвет фона вторичный #F5F4FA */ 
 
+:root {
+    --primary-text-color: rgba(117,117,117,1);
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-background-color: #E5E5E5;
+    --secondary-background-color: #F5F4FA;
+
+}
+
+
 
 .body-page {
-    background-color: #E5E5E5;
-    color: rgba(117,117,117,1);
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
 }
 .list {
     list-style: none;
@@ -17,19 +27,33 @@
 /* logo*/
 
 .logo {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 /* site nav*/
 
 .site-nav .link {
-    color: #2196f3;
+    color: var(--accent-color);
 }
 .site-nav .link:hover,
 site-nav .link:focus
  {
-    color:#212121;
+    color: var(--title-text-color);
 }
-.hero-title, .work-title, .section-title {
-    color: #212121;
+ /* Hero */
+
+ .hero-t0tle {
+     color: var(--title-text-color);
+ }
+
+ /* Section */
+
+ .section-title {
+    color: var(--title-text-color);
 }
+
+.feature-list {
+    color: var(--title-text-color);
+}
+
+
