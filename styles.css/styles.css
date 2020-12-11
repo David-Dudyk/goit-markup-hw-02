@@ -1,0 +1,35 @@
+/* цвет основного текста #757575  - rgba(117,117,117,1)*/
+/* цвет вторичного текста #212121 */
+/* цвет акцент #2196F3 */
+/* цвет полос  #2F303A */
+/* цвет фона #E5E5E5 */
+/* цвет фона вторичный #F5F4FA */ 
+
+
+.body-page {
+    background-color: #E5E5E5;
+    color: rgba(117,117,117,1);
+}
+.list {
+    list-style: none;
+}
+
+/* logo*/
+
+.logo {
+    color: #212121;
+}
+
+/* site nav*/
+
+.site-nav .link {
+    color: #2196f3;
+}
+.site-nav .link:hover,
+site-nav .link:focus
+ {
+    color:#212121;
+}
+.hero-title, .work-title, .section-title {
+    color: #212121;
+}
