@@ -10,7 +10,7 @@
     --primary-text-color:#212121;
     --title-text-color:#757575;
     --accent-color:#2196F3; 
-    --footer-logo-color: wite;
+    --footer-logo-color: #fff;
 
 }
 
@@ -68,10 +68,8 @@ body{
  .section-title {
      color: var(--primary-text-color);
  }
- 
- /* Feature */
 
- .feature-list .title{
+ .work-list .title {
      color: var(--primary-text-color);
  }
  
