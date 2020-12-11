@@ -6,9 +6,9 @@
 /* цвет фона вторичный #F5F4FA */ 
 
 :root {
-    --primary-text-color: rgba(117,117,117,1);
+    --primary-text-color: rgba(117, 117, 117, 1);
     --title-text-color: #212121;
-    --accent-color: #2196f3;
+    --accent-color: #2196F3;
     --primary-background-color: #E5E5E5;
     --secondary-background-color: #F5F4FA;
 
@@ -30,19 +30,22 @@
     color: var(--title-text-color);
 }
 
+.logo:hover {
+    color: var(--accent-color);
+}
+
 /* site nav*/
 
 .site-nav .link {
     color: var(--accent-color);
 }
 .site-nav .link:hover,
-site-nav .link:focus
- {
+.site-nav .link:focus{
     color: var(--title-text-color);
 }
  /* Hero */
 
- .hero-t0tle {
+ .hero-title {
      color: var(--title-text-color);
  }
 
