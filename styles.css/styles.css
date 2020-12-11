@@ -24,17 +24,18 @@
     list-style: none;
 }
 
-/* logo*/
+/* logo */
 
 .logo {
     color: var(--title-text-color);
 }
 
 .logo:hover {
+    --new-accent: red;  /* не работает этот подстиль */
     color: var(--accent-color);
 }
 
-/* site nav*/
+/* site nav */
 
 .site-nav .link {
     color: var(--accent-color);
@@ -61,4 +62,15 @@
     color: var(--title-text-color);
 }
 
+/* work */
 
+.work-list {
+    color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background: var(--primary-background-color);
+}
