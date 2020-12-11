@@ -55,7 +55,9 @@
     color: var(--title-text-color);
 }
 
-.feature-list {
+/* Feature */
+
+.feature-list .title {
     color: var(--title-text-color);
 }
 
