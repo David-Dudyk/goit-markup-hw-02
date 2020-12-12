@@ -21,7 +21,7 @@
 
 h1 { 
     font-family: Roboto;
-    font-style: normal;
+   
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -34,7 +34,7 @@ h1 {
 
 h2{
     font-family: Roboto;
-    font-style: normal;
+   
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -95,6 +95,15 @@ p {
     font-weight: 700;
 }
 
+/* header*/
+.header-color {
+ background-color: var(--primary-secondary);
+}
+ .main-color {
+     background-color: var(--primary-background-color);
+ }
+
+
   /* button */
   
 button {
@@ -153,7 +162,10 @@ button.active {
  .section-title {
     color: var(--title-text-color);
 }
-
+  .section-list {
+      background-color: var(--primary-secondary);
+      width: 370px;
+  }
 
 /* team */
 .team {
@@ -170,8 +182,8 @@ button.active {
 
 /* work */
 
-.work-list {
-    color: var(--title-text-color);
+.work {
+    background-color: var(--primary-background-color);
 }
 .work a{
     color: var(--title-text-color);
@@ -179,7 +191,10 @@ button.active {
 
 .work p {
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
 }
 
 /* contact-links a  */
@@ -239,8 +254,6 @@ footer {
 
   address {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -249,8 +262,6 @@ footer {
 
   .contact-links { 
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
