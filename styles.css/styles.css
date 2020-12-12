@@ -12,8 +12,8 @@
     --accent-color: #2196F3;
     --primary-background-color: #E5E5E5;
     --secondary-background-color: #F5F4FA;
-    --secondary-logo: #ffffff;
-    --background-heroes: #2F303A;
+    --primary-secondary: #ffffff;
+    --secondary-accent: #2F303A;
 
 }
 
@@ -25,16 +25,35 @@ h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    /* or 136% */
-    
-    text-align: center;
+    /*text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
     
-    color: #FFFFFF;
+    color: var(--primary-secondary);
 }
 
 h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    /*text-align: center;
+    letter-spacing: 0.03em;*/
+
+    color: var(--title-text-color);
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--title-text-color);
 
 }
 
@@ -114,8 +133,8 @@ button.active {
     color: var(--title-text-color);
 }
  /* Hero */
-/*  .hero {
-    background-color: var(--background-heroes);
+ /* .hero {
+    background-color: var(--secondary-accent);
 
      position: absolute;
      width: 1600px;
@@ -138,7 +157,7 @@ button.active {
 
 /* team */
 .team {
-    text-align: center;
+
     background-color: var(--secondary-background-color);
 }
   
@@ -190,11 +209,11 @@ nav a.active,
 
 /* footer */
 footer {
-    background-color: var(--accent-background);
+    background-color: var(--secondary-accent);
     font-family: var(--primary-font-family);
   }
   footer .logo {
-    color: var(--secondary-logo);
+    color: var(--primary-secondary);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -224,6 +243,14 @@ footer {
     letter-spacing: 0.03em;
     color: var(--footer-contaks-color);
   }
-
+  address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primary-secondary);
+  }
 
 
