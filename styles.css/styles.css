@@ -133,16 +133,16 @@ button.active {
     color: var(--title-text-color);
 }
  /* Hero */
- /* .hero {
+ .hero {
     background-color: var(--secondary-accent);
-
+/* 
      position: absolute;
      width: 1600px;
      height: 600px;
      left: 0px;
-     top: 80px;
- }*/
+     top: 80px;*/
 
+ }
  .hero-title {
      color: var(--title-text-color);
  }
@@ -236,13 +236,7 @@ footer {
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
   }
-  footer a {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--footer-contaks-color);
-  }
+
   address {
     font-family: Roboto;
     font-style: normal;
@@ -253,4 +247,12 @@ footer {
     color: var(--primary-secondary);
   }
 
-
+  .contact-links { 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
