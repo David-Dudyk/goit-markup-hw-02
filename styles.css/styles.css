@@ -6,33 +6,79 @@
 /* цвет фона вторичный #F5F4FA */ 
 
 :root {
+    --primary-font-family: 'Roboto', sans-serif;
     --primary-text-color: rgba(117, 117, 117, 1);
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-background-color: #E5E5E5;
     --secondary-background-color: #F5F4FA;
+    
 
 }
 
-
-
-.body-page {
-    background-color: var(--primary-background-color);
+body {
+    font-family: var(--primary-font-family);
     color: var(--primary-text-color);
-}
-.list {
+  }
+
+
+p {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,41;
+    letter-spacing: 0.03em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  ul {
     list-style: none;
-}
+  }
 
 /* logo */
 
 .logo {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 30,52;
+    letter-spacing: 0.03em;
 }
 
-.logo:hover {
-    --new-accent: red;  /* не работает этот подстиль */
+.logo span {
     color: var(--accent-color);
+    font-weight: 700;
+}
+
+  /* button */
+  
+button {
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+button:hover,
+button:focus,
+button.active {
+  background-color: var(--accent-color);
+  color: var(--secondary-background-color);
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--secondary-background-color);
+  background-color: var(--accent-color);
 }
 
 /* site nav */
@@ -68,27 +114,35 @@
     color: var(--title-text-color);
 }
 
-/* Button */
+/* contact-links a  */
 
-.button {
-    color: var(--title-text-color);
-    background: var(--primary-background-color);
+nav a {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .contact-links a {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
 
-    font-size:16px;
-    height: 38px;
-    padding: 12px 24px;
-    display: inline-block;
-    border: 1px solid black
+
+.contact-links a {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-
-.button.primary {
-    background-color: var(--accent-color);
-    color: white;
-    border-color: transparent;
-
-}
-.button.secondary {
-    color: var(--accent-color);
-    background-color: white;
-    border: blue;
+nav a:hover,
+nav a:focus,
+nav a.active,
+.contact-links a:hover,
+.contact-links a:focus {
+  color: var(--accent-color);
 }
