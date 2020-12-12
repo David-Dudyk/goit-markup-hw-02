@@ -73,4 +73,22 @@
 .button {
     color: var(--title-text-color);
     background: var(--primary-background-color);
+
+    font-size:16px;
+    height: 38px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid black
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: white;
+    border-color: transparent;
+
+}
+.button.secondary {
+    color: var(--accent-color);
+    background-color: white;
+    border: blue;
 }
