@@ -13,7 +13,28 @@
     --primary-background-color: #E5E5E5;
     --secondary-background-color: #F5F4FA;
     --secondary-logo: #ffffff;
-    --backgroun-heroes: 2F303A;
+    --background-heroes: #2F303A;
+
+}
+
+/* style h */
+
+h1 { 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+h2{
 
 }
 
@@ -93,13 +114,20 @@ button.active {
     color: var(--title-text-color);
 }
  /* Hero */
- .hero {
-     
- }
+/*  .hero {
+    background-color: var(--background-heroes);
+
+     position: absolute;
+     width: 1600px;
+     height: 600px;
+     left: 0px;
+     top: 80px;
+ }*/
 
  .hero-title {
      color: var(--title-text-color);
  }
+
 
  /* Section */
 
@@ -107,11 +135,6 @@ button.active {
     color: var(--title-text-color);
 }
 
-/* Feature */
-
-.feature-list .title {
-    color: var(--title-text-color);
-}
 
 /* team */
 .team {
