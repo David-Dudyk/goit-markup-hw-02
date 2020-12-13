@@ -43,10 +43,12 @@
 
     color: var(--title-text-color);
     font-family: Roboto;
+    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    /*text-transform: uppercase;*/
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .title-fouth {
@@ -71,15 +73,15 @@ body {
 
   }
 
-
+/*
 p {
     color: var(--text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16,41;
+    line-height: 24px;
     letter-spacing: 0.03em;
   }
-  
+  */
   a {
     text-decoration: none;
   }
@@ -94,7 +96,7 @@ p {
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
-    line-height: 30,52;
+    line-height: 31px;
     letter-spacing: 0.03em;
 }
 
@@ -171,10 +173,10 @@ font-weight: normal;
       background-color: var(--primary-secondary);
       width: 370px;
   }
-  .section p {
+  .p-section {
     font-family: Roboto;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 24px;
     letter-spacing: 0.03em;
 
   color: #757575;
@@ -202,12 +204,14 @@ font-weight: normal;
     color: var(--title-text-color);
 }
 
-.work p {
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    
-    color: #757575;
+.p-work {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /* contact-links a  */
@@ -215,14 +219,14 @@ font-weight: normal;
 nav a {
     color: #212121;
     font-weight: 500;
-    font-size: 14;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
   .contact-links a {
     color: #757575;
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
