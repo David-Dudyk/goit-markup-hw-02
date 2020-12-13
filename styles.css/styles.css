@@ -19,9 +19,8 @@
 
 /* style h */
 
-h1 { 
+.title-one { 
     font-family: Roboto;
-   
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -30,7 +29,7 @@ h1 {
     color: var(--primary-secondary);
 }
 
-h2 {
+.title-second {
     font-family: Roboto;
    
     font-weight: bold;
@@ -40,31 +39,23 @@ h2 {
     color: var(--title-text-color);
 }
 
-h3 {
-
+.title-third {
 
     color: var(--title-text-color);
-}
-h4 {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: var(--title-text-color);
-
-}
-
-
-body {
-    font-family: var(--primary-font-family);
-    color: var(--primary-text-color);
     font-family: Roboto;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+
+
+body {
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color);
+
   }
 
 
@@ -157,9 +148,6 @@ button.active {
 
  /* Section */
 
- .section-title {
-    color: var(--title-text-color);
-}
   .list {
       background-color: var(--primary-secondary);
       width: 370px;
@@ -214,7 +202,7 @@ nav a {
 }
   .contact-links a {
     color: #757575;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -261,6 +249,7 @@ footer {
   address {
     font-family: Roboto;
     font-size: 14px;
+    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--primary-secondary);
