@@ -46,8 +46,17 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.03em;
     /*text-transform: uppercase;*/
+}
+
+.title-fouth {
+  olor: var(--title-text-color);
+    font-family: Roboto;
+    font-weight: bold;
+font-style: normal;
+font-size: 18px;
+line-height: 36px;
+
 }
 
 
