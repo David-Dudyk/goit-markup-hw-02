@@ -30,7 +30,7 @@ h1 {
     color: var(--primary-secondary);
 }
 
-h2{
+h2 {
     font-family: Roboto;
    
     font-weight: bold;
@@ -41,12 +41,7 @@ h2{
 }
 
 h3 {
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+
 
     color: var(--title-text-color);
 }
@@ -64,6 +59,12 @@ h4 {
 body {
     font-family: var(--primary-font-family);
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
 
 
@@ -103,7 +104,7 @@ p {
  background-color: var(--primary-secondary);
 }
  .main-color {
-     background-color: var(--primary-background-color);
+     background-color: var(--primary-secondary);
  }
 
 
@@ -188,7 +189,7 @@ button.active {
 /* work */
 
 .work {
-    background-color: var(--primary-background-color);
+    background-color: var(--primary-secondary);
 }
 .work a{
     color: var(--title-text-color);
