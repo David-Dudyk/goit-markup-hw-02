@@ -52,12 +52,12 @@
 }
 
 .title-fouth {
-  olor: var(--title-text-color);
-    font-family: Roboto;
-    font-weight: bold;
-font-style: normal;
-font-size: 18px;
-line-height: 36px;
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 36px;
 
 }
 
