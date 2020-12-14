@@ -17,6 +17,15 @@
 
 }
 
+/* header*/
+.header-color {
+  background-color: var(--primary-secondary);
+ }
+  .main-color {
+      background-color: var(--primary-secondary);
+  }
+ 
+
 /* style h */
 
 .title-one { 
@@ -43,11 +52,7 @@
 
     color: var(--title-text-color);
     font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -61,8 +66,6 @@
 
 }
 
-
-
 body {
     font-family: var(--primary-font-family);
     color: var(--primary-text-color);
@@ -73,15 +76,6 @@ body {
 
   }
 
-/*
-p {
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-  }
-  */
   a {
     text-decoration: none;
   }
@@ -104,15 +98,6 @@ p {
     color: var(--accent-color);
     font-weight: 700;
 }
-
-/* header*/
-.header-color {
- background-color: var(--primary-secondary);
-}
- .main-color {
-     background-color: var(--primary-secondary);
- }
-
 
   /* button */
   
